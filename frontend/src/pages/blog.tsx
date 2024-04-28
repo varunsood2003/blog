@@ -14,7 +14,6 @@ export interface Blog {
 }
 
 const Blog = () => {
-  const navigate= useNavigate();
   const { id } = useParams();
   const [blog, setBlog] = useState({} as Blog | (() => Blog))
 

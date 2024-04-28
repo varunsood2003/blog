@@ -7,8 +7,7 @@ interface BlogCardProps {
 const BlogCard = ({
   authorName,
   title,
-  content,
-  publishedData,
+  content
 }: BlogCardProps) => {
   return (
     <div className="border-b border-slate-200 pb-3 pt-3">
