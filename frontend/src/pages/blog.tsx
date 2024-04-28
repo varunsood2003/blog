@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import  {BACKEND_URL}  from "../config";
 import { Avator } from "../pages/BlogCard";
 import { Appbar } from "../components/Appbar";
