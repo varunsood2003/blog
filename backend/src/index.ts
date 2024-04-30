@@ -9,9 +9,9 @@ const app = new Hono<{
   }
 }>()
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://blog-azure-zeta-91.vercel.app'
 };
-
+app.use('/*', cors())
 app.use(cors(corsOptions));
 
 app.route("/api/v1/user", userRouter);
